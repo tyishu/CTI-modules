@@ -4,4 +4,5 @@ __pycache__/
 venv/
 .idea/
 .DS_Store
-secrets.yml
+config/secrets.yml
+.vscode/
