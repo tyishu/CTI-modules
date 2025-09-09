@@ -1,0 +1,19 @@
+# placeholder yaml config file, to be edited later.
+ingest:
+  sources:
+    - abusech
+    - otx
+    - virustotal
+
+enrich:
+  passive_dns: true
+  whois: true
+
+scoring:
+  default_ttl_days: 7
+
+outputs:
+  file_dir: ./outputs
+  misp:
+    enabled: false
+    url: "https://misp.example"
